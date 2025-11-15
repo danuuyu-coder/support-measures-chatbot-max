@@ -75,18 +75,23 @@ docker-compose up -d --build
 ### Локальный запуск (без Docker)
 
 1. Установите Python 3.11 или выше
-2. Создайте и активируйте виртуальное окружение:
+2. Клонируйте репозиторий:
+```bash
+git clone https://github.com/danuuyu-coder/support-measures-chatbot-max.git
+cd support-measures-chatbot-max
+```
+3. Создайте и активируйте виртуальное окружение:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 .\venv\Scripts\activate  # Windows
 ```
-3. Установите зависимости:
+4. Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
-4. Создайте и заполните .env файл (как показано выше)
-5. Запустите бота:
+5. Создайте и заполните .env файл (как показано выше)
+6. Запустите бота:
 ```bash
 python -m src.main
 ```
