@@ -1,0 +1,5 @@
+chatbot-max:
+  build: .
+  container_name: chatbot-max
+  restart: unless-stopped
+  env_file: .env
