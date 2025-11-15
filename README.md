@@ -35,7 +35,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone https://github.com/danuuyu-coder/support-measures-chatbot-max.git
 cd support-measures-chatbot-max
 ```
 
